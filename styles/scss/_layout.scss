@@ -1,0 +1,69 @@
+@import '_variables.scss';
+
+html, * {
+	margin: 0;
+	padding: 0;
+}
+
+h2, 
+h3, 
+h5, 
+h6 {
+	font-family: $header-family;
+	font-size: $header-size;
+}
+
+h4,h1 {
+	font-family: $header-family;
+	font-size: $med-size;
+	color: $dark-pink;
+}
+
+h2 { color: #fff; }
+
+h1 { 
+	font-size: $header-size; 
+	font-weight: 600;
+}
+
+span,
+p {
+	font-family: $content-family;
+	font-size: $content-size;
+}
+
+span {color: $dark-pink;}
+
+section {
+	margin-top: 90px;
+}
+
+.section-item-title {
+	text-align: center;
+	
+	.about-title {
+		color: $dark-pink;
+	}
+}
+
+//***** Header *****//
+.header {
+	background: url(asset/placeholder.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.header {
+	.header-content {
+		text-align: center;
+
+		p {font-size: 24px;}
+	}
+}
+
+//***** Contact *****//
+.contact-container {
+	background-color: $dark-pink;
+}
