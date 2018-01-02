@@ -1,69 +1,77 @@
 @import '_variables.scss';
-
-html, * {
-	margin: 0;
-	padding: 0;
-}
-
-h2, 
-h3, 
-h5, 
-h6 {
-	font-family: $header-family;
-	font-size: $header-size;
-}
-
-h4,h1 {
-	font-family: $header-family;
-	font-size: $med-size;
-	color: $dark-pink;
-}
-
-h2 { color: #fff; }
-
-h1 { 
-	font-size: $header-size; 
-	font-weight: 600;
-}
-
-span,
-p {
-	font-family: $content-family;
-	font-size: $content-size;
-}
-
-span {color: $dark-pink;}
-
-section {
-	margin-top: 90px;
-}
-
-.section-item-title {
-	text-align: center;
-	
-	.about-title {
-		color: $dark-pink;
-	}
-}
+@import '_global.scss';
 
 //***** Header *****//
 .header {
-	background: url(asset/placeholder.jpg) no-repeat center center fixed; 
+	background: url(../asset/placeholder.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
+#overlay {
+	background-color: #000;
+}
+
 .header {
 	.header-content {
 		text-align: center;
+		padding: 10%;
 
 		p {font-size: 24px;}
 	}
 }
 
+//***** Work *****//
+
+.work-items {
+	background-color: #F1F1F1;
+	padding: 5%;
+
+  .-items {
+		display: flex;
+	  flex-direction: column-reverse;
+  }
+}
+
+.work-img {
+	img {
+		width: 140%;
+	  position: relative;
+	  right: 20%;
+	}
+}
+
+.fired {
+	background-color: #617fde;
+	padding: 5%;
+	color: #fff;
+}
+
 //***** Contact *****//
 .contact-container {
 	background-color: $dark-pink;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+.contact-item {
+	p {
+		a { padding-left: 5%;}
+	}
+}
+
+.icon {
+	display: flex;
+	
+	p {
+		padding-right: 5%;
+	}
+
+	.icon-item {
+		img {
+			max-width: 45%;
+		}
+	}
 }
