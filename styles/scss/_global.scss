@@ -40,8 +40,31 @@ section {
 
 .section-item-title {
 	text-align: center;
+	margin-bottom: 5%;
 	
 	.about-title {
 		color: $dark-pink;
 	}
 }
+
+.contact-container {
+		p { color: #fff; }
+	.contact-item {
+		p {
+			color: #fff;
+
+			a {
+				color: #000;
+			}
+		}		
+	}
+}
+
+.navbar-nav {
+	.nav-item {
+		.nav-link {
+			color: #fff;
+		}
+	}
+}
+

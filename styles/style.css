@@ -6498,29 +6498,46 @@ section {
   margin-top: 90px; }
 
 .section-item-title {
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 5%; }
   .section-item-title .about-title {
     color: #FABDBD; }
 
+.contact-container p {
+  color: #fff; }
+.contact-container .contact-item p {
+  color: #fff; }
+  .contact-container .contact-item p a {
+    color: #000; }
+
+.navbar-nav .nav-item .nav-link {
+  color: #fff; }
+
 .header {
-  background: url(../asset/placeholder.jpg) no-repeat center center fixed;
+  background: url(../asset/placeholder.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
 
-#overlay {
-  background-color: #000; }
-
 .header .header-content {
   text-align: center;
-  padding: 10%; }
+  padding: 10%;
+  background-color: #000;
+  opacity: .7; }
   .header .header-content p {
-    font-size: 24px; }
+    font-size: 24px;
+    color: #fff; }
+  .header .header-content .contact-btn {
+    border: 1px solid #FABDBD;
+    background-color: #FABDBD;
+    padding: 1% 2%; }
+    .header .header-content .contact-btn a {
+      color: #fff; }
 
 .work-items {
   background-color: #F1F1F1;
-  padding: 5%; }
+  padding: 8%; }
   .work-items .-items {
     display: flex;
     flex-direction: column-reverse; }
@@ -6530,10 +6547,24 @@ section {
   position: relative;
   right: 20%; }
 
-.fired {
-  background-color: #617fde;
+.fired,
+.jazz,
+.psg,
+.aba {
   padding: 5%;
   color: #fff; }
+
+.fired {
+  background-color: #617fde; }
+
+.jazz {
+  background-color: #dfc9bc; }
+
+.psg {
+  background-color: #E20047; }
+
+.aba {
+  background-color: #898f0e; }
 
 .contact-container {
   background-color: #FABDBD;
@@ -6550,6 +6581,23 @@ section {
   .icon .icon-item img {
     max-width: 45%; }
 
+@media screen and (min-width: 48em) {
+  .work-items .-items {
+    flex-direction: row; }
+
+  .work-content {
+    width: 70%;
+    padding-right: 10%; }
+
+  .work-img {
+    width: 60%; }
+    .work-img img {
+      position: relative;
+      right: 33%;
+      top: 14%; }
+
+  .icon .icon-item img {
+    max-width: 15%; } }
 html, * {
   margin: 0;
   padding: 0; }
@@ -6585,8 +6633,19 @@ section {
   margin-top: 90px; }
 
 .section-item-title {
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 5%; }
   .section-item-title .about-title {
     color: #FABDBD; }
+
+.contact-container p {
+  color: #fff; }
+.contact-container .contact-item p {
+  color: #fff; }
+  .contact-container .contact-item p a {
+    color: #000; }
+
+.navbar-nav .nav-item .nav-link {
+  color: #fff; }
 
 /*# sourceMappingURL=style.css.map */
