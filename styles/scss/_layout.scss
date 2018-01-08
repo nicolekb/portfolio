@@ -1,3 +1,8 @@
+//*******//
+//*	Template Name: _layout.scss
+//* Desc: Styling for the website's layout
+//*******//
+
 @import '_variables.scss';
 @import '_global.scss';
 
@@ -37,11 +42,14 @@
 
 .work-items {
 	background-color: #F1F1F1;
-	padding: 8%;
+	padding-top: 5%;
+	padding-bottom: 5%;
 
   .-items {
 		display: flex;
 	  flex-direction: column-reverse;
+	  margin-left: 2%;
+	  margin-right: 2%;
   }
 }
 
@@ -80,8 +88,8 @@
 //***** Contact *****//
 .contact-container {
 	background-color: $dark-pink;
-	padding-top: 3%;
-	padding-bottom: 3%;
+	padding-top: 8%;
+	padding-bottom: 8%;
 }
 
 .contact-item {
@@ -92,14 +100,17 @@
 
 .icon {
 	display: flex;
+	max-width: 50%;
 	
 	p {
 		padding-right: 5%;
 	}
 
 	.icon-item {
+		padding: 0 1%;
+
 		img {
-			max-width: 45%;
+			max-width: 80%;
 		}
 	}
 }
@@ -115,23 +126,36 @@
 	}
 
 	.work-content {
-		width: 70%;
-    padding-right: 10%;
+		width: 50%;
+    margin: auto;
 	}
 
 	.work-img {
-		width: 60%;
+		width: 40%;
 
 		img {
+			width: 150%;
 			position: relative;
-	    right: 33%;
-	    top: 14%;
+	    right: 39%;
+	    // top: 7%;
 		}
 	}
 
-	.icon .icon-item img {
-    max-width: 15%;
+	.icon {
+		display: flex;
+		max-width: 30%;
+		
+		p {
+			padding-right: 5%;
+		}
+
+		.icon-item {
+			img {
+				max-width: 80%;
+			}
+		}
 	}
+
 }
 
 

@@ -1,3 +1,8 @@
+//*******//
+//*	Template Name: _global.scss
+//* Desc: Global layout settings
+//*******//
+
 @import '_variables.scss';
 
 html, * {
@@ -68,3 +73,13 @@ section {
 	}
 }
 
+// slick items
+.slick-prev:before, .slick-next:before{
+    color: $dark-pink;
+}
+
+.slick-next { right: 0; }
+
+.slick-prev { left: 0; }
+
+.slick-prev, .slick-next { width: 20%; }

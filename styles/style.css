@@ -6513,6 +6513,18 @@ section {
 .navbar-nav .nav-item .nav-link {
   color: #fff; }
 
+.slick-prev:before, .slick-next:before {
+  color: #FABDBD; }
+
+.slick-next {
+  right: 0; }
+
+.slick-prev {
+  left: 0; }
+
+.slick-prev, .slick-next {
+  width: 20%; }
+
 .header {
   background: url(../asset/placeholder.jpg) no-repeat center center;
   -webkit-background-size: cover;
@@ -6537,10 +6549,13 @@ section {
 
 .work-items {
   background-color: #F1F1F1;
-  padding: 8%; }
+  padding-top: 5%;
+  padding-bottom: 5%; }
   .work-items .-items {
     display: flex;
-    flex-direction: column-reverse; }
+    flex-direction: column-reverse;
+    margin-left: 2%;
+    margin-right: 2%; }
 
 .work-img img {
   width: 140%;
@@ -6568,36 +6583,44 @@ section {
 
 .contact-container {
   background-color: #FABDBD;
-  padding-top: 3%;
-  padding-bottom: 3%; }
+  padding-top: 8%;
+  padding-bottom: 8%; }
 
 .contact-item p a {
   padding-left: 5%; }
 
 .icon {
-  display: flex; }
+  display: flex;
+  max-width: 50%; }
   .icon p {
     padding-right: 5%; }
-  .icon .icon-item img {
-    max-width: 45%; }
+  .icon .icon-item {
+    padding: 0 1%; }
+    .icon .icon-item img {
+      max-width: 80%; }
 
 @media screen and (min-width: 48em) {
   .work-items .-items {
     flex-direction: row; }
 
   .work-content {
-    width: 70%;
-    padding-right: 10%; }
+    width: 50%;
+    margin: auto; }
 
   .work-img {
-    width: 60%; }
+    width: 40%; }
     .work-img img {
+      width: 150%;
       position: relative;
-      right: 33%;
-      top: 14%; }
+      right: 39%; }
 
-  .icon .icon-item img {
-    max-width: 15%; } }
+  .icon {
+    display: flex;
+    max-width: 30%; }
+    .icon p {
+      padding-right: 5%; }
+    .icon .icon-item img {
+      max-width: 80%; } }
 html, * {
   margin: 0;
   padding: 0; }
@@ -6647,5 +6670,17 @@ section {
 
 .navbar-nav .nav-item .nav-link {
   color: #fff; }
+
+.slick-prev:before, .slick-next:before {
+  color: #FABDBD; }
+
+.slick-next {
+  right: 0; }
+
+.slick-prev {
+  left: 0; }
+
+.slick-prev, .slick-next {
+  width: 20%; }
 
 /*# sourceMappingURL=style.css.map */
