@@ -6525,6 +6525,35 @@ section {
 .slick-prev, .slick-next {
   width: 20%; }
 
+.texture,
+.texture-2,
+.white-texture,
+.flip {
+  position: relative;
+  z-index: -1; }
+
+.texture {
+  height: 180px;
+  background-image: url("../asset/texture.png");
+  background-repeat: repeat-x;
+  top: 248px; }
+
+.texture-2 {
+  background-image: url("../asset/texture-2.png");
+  background-repeat: repeat-x; }
+
+.white-texture,
+.flip {
+  background-repeat: repeat;
+  height: 34px; }
+
+.white-texture {
+  background-image: url("../asset/white-texture.png"); }
+
+.flip {
+  background-image: url("../asset/flip.png");
+  bottom: 36px; }
+
 .header {
   background: url(../asset/placeholder.jpg) no-repeat center center;
   -webkit-background-size: cover;
@@ -6682,5 +6711,34 @@ section {
 
 .slick-prev, .slick-next {
   width: 20%; }
+
+.texture,
+.texture-2,
+.white-texture,
+.flip {
+  position: relative;
+  z-index: -1; }
+
+.texture {
+  height: 180px;
+  background-image: url("../asset/texture.png");
+  background-repeat: repeat-x;
+  top: 248px; }
+
+.texture-2 {
+  background-image: url("../asset/texture-2.png");
+  background-repeat: repeat-x; }
+
+.white-texture,
+.flip {
+  background-repeat: repeat;
+  height: 34px; }
+
+.white-texture {
+  background-image: url("../asset/white-texture.png"); }
+
+.flip {
+  background-image: url("../asset/flip.png");
+  bottom: 36px; }
 
 /*# sourceMappingURL=style.css.map */
