@@ -31,6 +31,10 @@ h1 {
 	font-weight: 600;
 }
 
+.-contact { 
+	h2 {font-size: 50px;}
+}
+
 span,
 p {
 	font-family: $content-family;
@@ -39,8 +43,13 @@ p {
 
 span {color: $dark-pink;}
 
-section {
+section:not(.contact-container) {
 	margin-top: 90px;
+}
+
+.about-subtitle {
+	width: 45%;
+	margin: auto;
 }
 
 .section-item-title {
@@ -75,7 +84,7 @@ section {
 
 // slick items
 .slick-prev:before, .slick-next:before{
-    color: $dark-pink;
+    color: #000;
 }
 
 .slick-next { right: 0; }
@@ -86,38 +95,11 @@ section {
 
 //texture
 
-.texture,
-.texture-2,
-.white-texture,
-.flip {
-  position: relative;
-  z-index: -1;
-}
-
 .texture {
-	height: 180px;
+	height: 70px;
 	background-image: url('../asset/texture.png');
 	background-repeat: repeat-x;
-  top: 248px;
-
-}
-
-.texture-2 {
-	background-image: url('../asset/texture-2.png');
-	background-repeat: repeat-x;
-}
-
-.white-texture,
-.flip {
-	background-repeat: repeat;
-  height: 34px;
-}
-
-.white-texture {
-	background-image: url('../asset/white-texture.png');
-}
-
-.flip {
-	background-image: url('../asset/flip.png');
-  bottom: 36px;
+	position: relative;
+  top: -24px;
+	z-index: 2;
 }

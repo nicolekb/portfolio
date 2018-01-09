@@ -38,13 +38,13 @@
 	}
 }
 
+.overlay {
+
+}
+
 //***** Work *****//
 
 .work-items {
-	background-color: #F1F1F1;
-	padding-top: 5%;
-	padding-bottom: 5%;
-
   .-items {
 		display: flex;
 	  flex-direction: column-reverse;
@@ -85,14 +85,25 @@
 	background-color: #898f0e;	
 }
 
+//***** About *****//
+.about {
+	background-color: #f6f6f6;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
 //***** Contact *****//
 .contact-container {
-	background-color: $dark-pink;
-	padding-top: 8%;
-	padding-bottom: 8%;
+	background-color: darken($dark-pink, 5%);
+	padding-bottom: 5%;
+
+	.-contact { margin: 0 5%; }
 }
 
 .contact-item {
+
+	padding: 5% 0 2% 0;
+
 	p {
 		a { padding-left: 5%;}
 	}
@@ -143,7 +154,7 @@
 
 	.icon {
 		display: flex;
-		max-width: 30%;
+		max-width: 45%;
 		
 		p {
 			padding-right: 5%;
@@ -156,6 +167,18 @@
 		}
 	}
 
+	.email { max-width: 45%; }
+
+}
+
+@media screen and (min-width: 60em) {
+		//***** Contact *****//
+	.contact-container { 
+		.-contact {
+			width: 40%;
+			margin-left: 11%;
+		}
+	}
 }
 
 
