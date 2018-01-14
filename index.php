@@ -67,7 +67,7 @@
 		  			<li>Role: Developer</li>
 		  			<li>Built with: Shopify</li>
 		  		</ul> 		
-		  		<button class="site-item-btn"><a href="#" target="_blank">View Site <i class="fa fa-angle-double-right"></i></a></button>
+		  		<div class="site-item-btn"><a href="#" target="_blank" class="fancy-btn">View Site <i class="fa fa-angle-double-right"></i></a></div>
 		  	</div>
 		  	<div class="work-img">
 		  		<img src="asset/work/jazz.png" alt="">
@@ -83,7 +83,7 @@
 		  			<li>Role: Developer and Designer</li>
 		  			<li>Built with: WordPress</li>
 		  		</ul> 		
-		  		<button class="site-item-btn"><a href="#" target="_blank">View Site <i class="fa fa-angle-double-right"></i></a></button>
+		  		<div class="site-item-btn"><a href="#" target="_blank" class="fancy-btn">View Site <i class="fa fa-angle-double-right"></i></a></div>
 		  	</div>
 		  	<div class="work-img">
 		  		<img src="asset/work/view-finder.png" alt="">
@@ -98,7 +98,7 @@
 		  			<li>Role: Developer</li>
 		  			<li>Built with: Shopify</li>
 		  		</ul> 		
-		  		<button class="site-item-btn"><a href="https://psgi.ca/" target="_blank">View Site <i class="fa fa-angle-double-right"></i></a></button>
+		  		<div class="site-item-btn"><a href="https://psgi.ca/" target="_blank" class="fancy-btn">View Site <i class="fa fa-angle-double-right"></i></a></div>
 		  	</div>
 		  	<div class="work-img">
 		  		<img src="asset/work/psg.png" alt="">
@@ -113,7 +113,7 @@
 		  			<li>Role: Developer</li>
 		  			<li>Built with: PHP/MySQL</li>
 		  		</ul> 		
-		  		<button class="site-item-btn"><a href="#" target="_blank">View Site <i class="fa fa-angle-double-right"></i></a></button>
+		  		<div class="site-item-btn"><a href="#" target="_blank" class="fancy-btn">View Site <i class="fa fa-angle-double-right"></i></a></div>
 		  	</div>
 		  	<div class="work-img">
 		  		<img src="asset/work/yeg-food.png" alt="">
@@ -128,7 +128,7 @@
 		  			<li>Role: Developer</li>
 		  			<li>Built with: Shopify</li>
 		  		</ul> 		
-		  		<button class="site-item-btn"><a href="https://adoredbeast.com" target="_blank">View Site <i class="fa fa-angle-double-right"></i></a></button>
+		  		<div class="site-item-btn"><a href="https://adoredbeast.com" target="_blank" class="fancy-btn">View Site <i class="fa fa-angle-double-right"></i></a></div>
 		  	</div>
 		  	<div class="work-img">
 		  		<img src="asset/work/aba.png" alt="">
@@ -143,7 +143,7 @@
 		  			<li>Role: Developer</li>
 		  			<li>Built with: JavaScript</li>
 		  		</ul> 		
-		  		<button class="site-item-btn"><a href="http://nicolebuloran.com/dice-game/" target="_blank">View Site <i class="fa fa-angle-double-right"></i></a></button>
+		  		<div class="site-item-btn"><a href="http://nicolebuloran.com/dice-game/" target="_blank" class="fancy-btn">View Site <i class="fa fa-angle-double-right"></i></a></div>
 		  	</div>
 		  	<div class="work-img">
 		  		<img src="asset/work/dice-game.png" alt="">
