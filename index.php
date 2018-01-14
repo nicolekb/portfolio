@@ -51,7 +51,7 @@
 		  			<li>Role: Developer</li>
 		  			<li>Built with: Bootstrap</li>
 		  		</ul> 		
-		  		<button class="site-item-btn"><a href="http://nicolebuloran.com/fired-up-vitality/" target="_blank">View Site <i class="fa fa-angle-double-right"></i></a></button>
+		  		<div class="site-item-btn"><a href="http://nicolebuloran.com/fired-up-vitality/" target="_blank" class="fancy-btn">View Site <i class="fa fa-angle-double-right"></i></a></div>
 		  	</div>
 		  	<div class="work-img">
 		  		<img src="asset/work/fired.png" alt="">
@@ -71,6 +71,22 @@
 		  	</div>
 		  	<div class="work-img">
 		  		<img src="asset/work/jazz.png" alt="">
+		  	</div>
+			</div>
+
+			<!-- Viewfinder -->
+	  	<div class="-items">
+		  	<div class="work-content view">
+		  		<h3>View Finder</h3>
+		  		<p class="site-desc">A school project that focuses on WordPress theme customization. We used Page One Express theme. Required to use multiple plugins. I picked Contact Form 7, Page Builder, Slick Slideshow and WP DB Migrate to move from my local server to live site.</p>
+		  		<ul class="site-item">
+		  			<li>Role: Developer and Designer</li>
+		  			<li>Built with: WordPress</li>
+		  		</ul> 		
+		  		<button class="site-item-btn"><a href="#" target="_blank">View Site <i class="fa fa-angle-double-right"></i></a></button>
+		  	</div>
+		  	<div class="work-img">
+		  		<img src="asset/work/view-finder.png" alt="">
 		  	</div>
 			</div>
 
@@ -177,7 +193,7 @@
 		<div class="texture"></div>
 		<div class="-contact">
 
-			<div class="contact-item-2">
+			<div class="contact-item-2 wow fadeInLeft">
 				<h2>Connect With Me</h2>
 				<p>If you would like to see more about me, feel free to connect with me on any of my social media accounts</p>
 				<ul class="icon">
@@ -200,7 +216,7 @@
 				</ul>
 			</div>
 
-			<div class="contact-item-1">
+			<div class="contact-item-1 wow fadeInRight">
 				<h2>Get In Touch</h2>
 				<p>I am available for hire! Let’s work together or maybe grab a cup of coffee?</p>
 				<p class="email">Email:<a href="mailto:nicolekbuloran@gmail.com" target="_top">nicolekbuloran@gmail.com</a></p>

@@ -135,12 +135,12 @@ section:not(.contact-container) {
 	}
 }
 
-button > a, p > span > a, p > a {
+p > span > a, p > a {
   position: relative;
   text-decoration: none;
 }
 
-button > a:before, p > span > a:before, p > a:before {
+p > span > a:before, p > a:before {
 	content: "";
 	position: absolute;
 	width: 100%;
@@ -155,8 +155,40 @@ button > a:before, p > span > a:before, p > a:before {
 	transition: all 0.3s ease-in-out 0s;
 }
 
-button > a:hover:before, p > span > a:hover:before, p > a:hover:before {
+p > span > a:hover:before, p > a:hover:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
+}
+
+.fancy-btn{
+  display:inline-block;
+  position:relative;
+  padding:10px 20px;
+  border: 1px solid #fff;
+  text-decoration:none;
+  margin:20px auto;
+  transition: color 0.4s
+}
+.fancy-btn:after{
+  content:" ";
+  border:1px solid rgba(0,0,0,0);
+  display:inline-block;
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  margin:auto;
+  transition:all 0.4s;
+}
+
+.fancy-btn:hover{
+  color:#eee;
+}
+
+.fancy-btn:hover:after{  
+  border:1px solid #fff;
+  width: calc(100% - 10px);
+  height: calc(100% + 10px); 
 }

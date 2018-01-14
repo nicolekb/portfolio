@@ -71,13 +71,10 @@
 
 .site-item {
   padding-top: 2%;
-  padding-bottom: 5%
 }
 
 .site-item-btn {
-	padding: 1% 3%;
-	background-color: #f8a5a5;
-	border: none;
+	background-color: transparent;
 
 	a { 
 		font-family: $header-family;
@@ -85,12 +82,14 @@
 	}
 }
 
+
 .fired,
 .jazz,
 .psg,
 .aba, 
 .dice,
-.food {
+.food,
+.view {
 	padding: 5%;
 	color: #fff;
 }
@@ -118,6 +117,11 @@
 .food {
 	background-color: #337ab7;
 }
+
+.view {
+	background-color: #0299de;
+} 
+
 
 //***** About *****//
 .about {
@@ -243,5 +247,4 @@
 		}
 	}
 }
-
 
